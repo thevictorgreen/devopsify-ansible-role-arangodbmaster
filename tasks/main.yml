@@ -1,0 +1,6 @@
+---
+# tasks file for ArangoDB Master Server
+- name: Update Repositories
+  become: yes
+  apt:
+    update_cache: yes
